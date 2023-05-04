@@ -1,0 +1,147 @@
+﻿State Medicaid Agency Interoperability and Patient Access Endpoint Directory,,,,,,,Patient Access Endpoint Information ,,,,,,,,,,,,,,,,,Provider Directory Endpoint Information ,,,,,,,,,,,,,
+State,Notes/Description,Clarifications or additional details on provided data,"Information as of date
+(Date Completing the Survey)",Member support contact phone number,Member support contact email,"Do Members (Beneficiaries) have ability to view records of when and with whom their data have been shared via the API?
+(drop-down list)",Production URL for Claims Data (CARIN BB),"Production URL for Member Health Data (PDex), if different then claims URL","Production URL for Formulary, if different then claims URL","Production URL for CHIP data, if different then Medicaid","Status
+(drop-down list)",Patient Access API Implementation Date,FHIR Capability Statement Link,"Data Refresh Frequency (e.g. Real-Time, Hourly, Daily, Weekly, Monthly) ","Are claims, encounters, and clinical data with dates of service on or after January 1, 2016 available?
+(drop-down list) ","FHIR Version 
+(drop-down list)",Authentication Implementation Details,"Authentication Protocol 
+(drop-down list)",IG(s) and version(s) Supported URL(s),Does the API use the recommended Implementation Guides (Y/N drop-down list),Sandbox/Test URL(s),API Registration Info,Developer Support Contact Info,Provider Directory Production URL,"Status 
+(drop-down list)",Provider Directory API Implementation Date,FHIR Capability Statement Link,"Data Refresh Frequency (e.g. Real-Time, Hourly, Daily, Weekly, Monthly) ","Is the API Public?
+(Y/N drop-down list) ","FHIR Version
+(drop-down list)
+",IG(s) and version(s) Supported URL(s),Does the API use the recommended Implementation Guide (Y/N drop-down list),Please provide a link to the published provider directory on your state website,How often is the published Provider Directory refreshed? ,Sandbox/Test URL,"API registration Info (URL, email)",Developer Support Contact Info
+Alabama,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Alaska,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Arizona,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Arkansas,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+California,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Colorado,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Connecticut,,,,,,,,,,,,,,,,,,,,,,,,"https://api.delawarefhir.com/r4/public/Practitioner
+
+https://api.delawarefhir.com/r4/public/Organization
+
+https://api.delawarefhir.com/r4/public/Location",,,,,,,,,,,,,
+Delaware,,,4/27/2023,,"CareEvolution: fhir@careevolution.com
+OneRecord: support@onerecord.com",No,https://api.delawarefhir.com/r4/Explanationofbenefits,N/A,"https://api.delawarefhir.com/r4/public/MedicationKnowledge
+
+https://api.delawarefhir.com/r4/public/List",N/A,Active,3/22/2021,https://api.delawarefhir.com/r4/metadata,Weekly,Yes,4.0.1,"When members first opt to share data with the first third-party application, they will be required to verify their identity and authorize access for that application.
+For subsequent applications, the members will enter their email address and receive a code by email to authenticate and authorize access. ",Oauth 2.0,"Administrative Health Plan Data:
+
+CARIN IG 1.1.0 - http://hl7.org/fhir/us/carin-bb/STU1.1/
+
+1.2.0 -  http://hl7.org/fhir/us/carin-bb/2022Jan/",Yes,https://api.delawarefhirstage.com/,"Quick Start Guide: https://1up.health/docs/start/quick-start-guide
+
+Registration: https://1up.health/docs/start/quick-start-guide/register","1upHealth Support Portal:
+https://1upsupport.force.com/s/",,Active,3/22/2021,https://api.delawarefhir.com/r4/metadata,Weekly,Yes,4.0.1,"DaVinci PDEX Plan Net:
+http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1/",Yes,https://api.delawarefhir.com/r4/public/Practitioner,Weekly,https://api.delawarefhirstage.com/,"Quick Start Guide: https://1up.health/docs/start/quick-start-guide
+
+Registration: https://1up.health/docs/start/quick-start-guide/register",1upHealth Support Portal: https://1upsupport.force.com/s/
+Florida,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Georgia,,,4/27/2023,,"CareEvolution: fhir@careevolution.com
+b.Well: support@icanbwell.com
+OneRecord: support@onerecord.com
+Flexpa: support@flexpa.com
+mPowered: nandini@mpoweredhealth.com
+1upHealth Patient App: support@1up.health",No,https://api.georgiafhir.com/r4/Explanationofbenefits,N/A,"https://api.georgiafhir.com/r4/public/MedicationKnowledge
+
+https://api.georgiafhir.com/r4/public/List",N/A,Active,6/17/2022,https://api.georgiafhir.com/r4/metadata,Weekly,Yes,4.0.1,"When members first opt to share data with the first third-party application, they will be required to verify their identity and authorize access for that application.
+For subsequent applications, the members will enter their email address and receive a code by email to authenticate and authorize access. ",Oauth 2.0,"Administrative Health Plan Data:
+
+CARIN IG 1.1.0 - http://hl7.org/fhir/us/carin-bb/STU1.1/
+
+1.2.0 -  http://hl7.org/fhir/us/carin-bb/2022Jan/",Yes,https://api.georgiafhirstage.com/,"Quick Start Guide: https://1up.health/docs/start/quick-start-guide
+
+Registration: https://1up.health/docs/start/quick-start-guide/register","1upHealth Support Portal:
+https://1upsupport.force.com/s/","https://api.georgiafhir.com/r4/public/Practitioner
+
+https://api.georgiafhir.com/r4/public/Organization
+
+https://api.georgiafhir.com/r4/public/Location",Active,6/17/2022,https://api.georgiafhir.com/r4/metadata,Weekly,Yes,4.0.1,"DaVinci PDEX Plan Net:
+http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1/",Yes,https://api.georgiafhir.com/r4/public/Practitioner,Weekly,https://api.georgiafhirstage.com/,"Quick Start Guide: https://1up.health/docs/start/quick-start-guide
+
+Registration: https://1up.health/docs/start/quick-start-guide/register",1upHealth Support Portal: https://1upsupport.force.com/s/
+Hawaii,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Idaho,"Fee for Service patient, provider, and drug formulary data included. ","For Column G, the Member must approve the sharing of their data prior to it being shared.",4/21/2023,1 (866) 686-4752,idparticipantservices@gainwelltechnologies.com,Yes,https://api-idmedicaid.safhir.io/v1/api/carin-bb/openapi.json, ,https://api-idmedicaid.safhir.io/v1/api/secure-formulary/openapi.json, ,Active,1/15/2023,https://api-idmedicaid.safhir.io/v1/api,Weekly,No,4.0.1,Identity Management is integrated with ID.Me ,Oauth 2.0,Claims - R4 - https://hl7.org/fhir/us/carin-bb/artifacts.html#3 - FHIR 4.0.1,Yes,https://api-ida-uat.safhir.io/v1/api,https://portal.safhir.io/portal/,support@onyxhealth.io,https://api-idmedicaid.safhir.io/v1/api/provider-directory/openapi.json,Active,1/15/2023,https://api-idmedicaid.safhir.io/v1/api,Weekly,Yes,4.0.1,PVD     - R4 - https://hl7.org/fhir/us/carin-bb/artifacts.html#3  - FHIR 4.0.1,Yes,Yes,daily,https://api-ida-uat.safhir.io/v1/api,https://portal.safhir.io/portal/,support@onyxhealth.io
+Illinois,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Indiana,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iowa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kansas,,,4/26/2023,"(800) 766-9012 - KMAP
+(888) 344-7187 - 1upHealth","CareEvolution: fhir@careevolution.com
+OneRecord: support@onerecord.com
+Note: These are the email addresses to contact specific applications. There is not a general member support email address. ",No,https://api.kansasfhir.com/r4/ExplanationOfBenefits,N/A,"https://api.kansasfhir.com/r4/public/MedicationKnowledge
+https://api.kansasfhir.com/r4/public/List",n/a,Active,7/1/2021,https://api.kansasfhir.com/r4/metadata,Claims - Daily,Yes,4.0.1,"When members first opt to share data with the first third-party application, they will be required to verify their identity and authorize access for that application.
+For subsequent applications, the members will enter their email address and receive a code by email to authenticate and authorize access. ",Oauth 2.0,"Administrative
+
+CARIN IG 1.1.0 - http://hl7.org/fhir/us/carin-bb/STU1.1/
+1.2.0 -  http://hl7.org/fhir/us/carin-bb/2022Jan/",Yes,https://api.kansasfhirstage.com/,"Quick Start Guide: https://1up.health/docs/start/quick-start-guide
+Registration: https://1up.health/docs/start/quick-start-guide/register","1upHealth Support Portal:
+https://1upsupport.force.com/s/","https://api.kansasfhir.com/r4/Public/Practitioner
+https://api.kansasfhir.com/r4/public/Organization
+https://api.kansasfhir.com/r4/public/Location",Active,7/1/2021,https://api.kansasfhir.com/r4/metadata,Weekly,Yes,4.0.1,"DaVinci PDEX Plan Net
+http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1/",Yes,https://portal.kmap-state-ks.us/PublicPage/ProviderPricing/ProviderDirectorySearch,,https://api.kansasfhirstage.com/,"Quick Start Guide: https://1up.health/docs/start/quick-start-guide
+Registration: https://1up.health/docs/start/quick-start-guide/register","1upHealth Support Portal:
+https://1upsupport.force.com/s/ https://portal.kmap-state-ks.us/PublicPage/ProviderPricing/ProviderDirectorySearch
+"
+Kentucky,,,4/27/2023,855-509-2450,"CareEvolution: fhir@careevolution.com
+OneRecord: support@onerecord.com
+Flexpa: support@flexpa.com
+1upHealth Patient App: support@1up.health",No,https://api.kentuckyfhir.com/r4/Explanationofbenefits,N/A,"https://api.kentuckyfhir.com/r4/public/MedicationKnowledge
+
+https://api.kentuckyfhir.com/r4/public/List",N/A,Active,3/30/2021,https://api.kentuckyfhir.com/r4/metadata,Weekly,Yes,4.0.1,"When members first opt to share data with the first third-party application, they will be required to verify their identity and authorize access for that application.
+For subsequent applications, the members will enter their email address and receive a code by email to authenticate and authorize access. ",Oauth 2.0,"Administrative Health Plan Data:
+CARIN IG 1.1.0 - http://hl7.org/fhir/us/carin-bb/STU1.1/
+1.2.0 -  http://hl7.org/fhir/us/carin-bb/2022Jan/",Yes,https://api.kentuckyfhirstage.com/,"Quick Start Guide: https://1up.health/docs/start/quick-start-guide
+
+Registration: https://1up.health/docs/start/quick-start-guide/register","1upHealth Support Portal:
+https://1upsupport.force.com/s/","https://api.kentuckyfhir.com/r4/public/Practitioner
+
+https://api.kentuckyfhir.com/r4/public/Organization
+
+https://api.kentuckyfhir.com/r4/public/Location",Active,3/30/2021,https://api.kentuckyfhir.com/r4/metadata,Weekly,Yes,4.0.1,"DaVinci PDEX Plan Net:
+http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1/",Yes,https://api.kentuckyfhir.com/r4/public/Practitioner,Weekly,https://api.kentuckyfhirstage.com/,"Quick Start Guide: https://1up.health/docs/start/quick-start-guide
+
+Registration: https://1up.health/docs/start/quick-start-guide/register",1upHealth Support Portal: https://1upsupport.force.com/s/
+Louisiana,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Maine,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Maryland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Massachusetts,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Michigan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Minnesota,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mississippi,State underway with API projects. Currently in procurement status. Implementation start expected in January 2024 with completion estimated as late as summer 2025.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Missouri,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Montana,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nebraska,"The State Interoperability System consists of the following three components.
+A) An online portal for third-party apps to register their apps.
+B) An online portal for members to complete their digital registration with the State, including conducting identity proofing with ID.me
+C) The FHIR Engine services the patient and Provider API data through the State API gateway.
+The system became operational on 09/30/2022.
+ The State continued to correct historical claims data in the FHIR Engine data store past 09/30/2022 for the next couple of months to address the data discrepancies discovered during our internal testing.","As of now there has not been any usage of the system. There has been no third party application developers requesting access to these APIs.
+For response to Question in Column G, please note this explanation. The member are required to issue explicit consent to any and every third party app before their data is shared via the app. The members can revoke consent to any third party app through the screens.",4/26/2023,All support request for Interoperability are being captured via the email as noted in column F. There is no dedicated phone number for this initiative.,dhhs.interoperabilityrule@nebraska.gov​,Yes,https://dhhs-api.ne.gov/dhhs/trading-partner/api/cmsi/patient-access-api/1.0.0/Patient,Same as H,Formulary File information is provided as a part of the Provider API ,Same as H,Active,9/30/2022,https://fhirpat-dhhs.ne.gov:11543/edifecs/fhir/R4/metadata,Weekly,Yes,4.0.1,Member are required to be Identity Proofed once with the ID.Me. All members who are identity proofed are authenticated against the State's Identity Provider- Azure B2C. The  protocol used is OAUTH2.0 protocol and OIDC. The JWT Tokens are generated by the Identity provider and validated at the API Gateway.,Oauth 2.0,Using the Carin Blue Button Implementation Guide ,Yes,https://dhhs-uat-api.ne.gov/dhhs/trading-partner/api/cmsi/patient-access-api/1.0.0/Patient,Third Party Developers can register their apps through the App - https://interop-dhhs.nebraska.gov/appOwnerLandingHome, dhhs.vendorinteroperabilityrule@nebraska.gov​,https://dhhs-api.ne.gov/dhhs/trading-partner/api/cmsi/provider/1.0.0/metadata,Active,9/30/2022,https://fhirpat-dhhs.ne.gov:11543/edifecs/fhir/R4/metadata,Weekly,Yes,4.0.1,Implementation Guide is the HL7 FHIR Da Vinci PDex Plan Net IG: Version STU 1.0.0,Yes, , ,https://dhhs-sys-api.ne.gov/dhhs/trading-partner/api/cmsi/provider/1.0.0/metadata,Third Party Developers can register their apps through the App - https://interop-dhhs.nebraska.gov/appOwnerLandingHome, dhhs.vendorinteroperabilityrule@nebraska.gov​
+Nevada,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+New Hampshire,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+New Jersey,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+New Mexico,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+New York,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+North Carolina,State underway with API projects. Currently in procurement status with implementation planned for July 2024.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+North Dakota,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ohio,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Oklahoma,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Oregon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pennsylvania,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rhode Island,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+South Carolina,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+South Dakota,underway with API project with an estimate date of October for completion,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tennessee,State doesn't maintain any APIs because they are entirely managed care.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Texas, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Utah,"As of 4/27/2023, the Patient Access API is currently in development.  For Column AI, the Published Provider Directory is refreshed daily.",Patient Access API go live is 6/1/2023 - data will be available ~7/1/2023,4/27/2023,1-866-608-9422,medicaid.utah.gov/member,No, , , , , , , , , , , , , , , , , ,https://fp.medicaid.utah.gov/find-provider/,Active,8/4/2022, ,Daily,Yes,4.1.0, ,Yes,https://fp.medicaid.utah.gov/find-provider/,Yes,https://rt-mybenefits.utah.gov/ProviderDirectoryServices/metadata,N/A, 
+Vermont,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Virginia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Washington,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+West Virginia,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wisconsin,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wyoming,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+American Samoa (AS),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Guam (GU),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Northern Mariana Islands (MP),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Puerto Rico (PR),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Virgin Islands (VI),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
