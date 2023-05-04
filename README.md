@@ -7,4 +7,4 @@ The SMA Endpoint Directory was created to enhance interoperability by allowing S
 
 [View the SMA Endpoint Directory](https://github.com/smahoney10/EndpointDirectory/blob/main/SMAEndpointDirectory.csv)\
 [Download the SMA Endpoint Directory](https://github.com/smahoney10/EndpointDirectory/blob/main/SMAEndpointDirectory%20(6).xlsx)\
-[Go to Repository](https://github.com/smahoney10/EndpointDirectory)\
+[Go to Repository](https://github.com/smahoney10/EndpointDirectory)
